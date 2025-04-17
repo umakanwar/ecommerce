@@ -29,7 +29,10 @@ const App = () => {
         <Route path="/mobiles" element={<MobilesPage />} />
         <Route path="/wishlist" element={<WishListPage />} />
         <Route path="/laptops" element={<LaptopPage />} />
-       
+        <Route path="/tvs" element={<TVsPage />} />
+        <Route path="/appliances" element={<Appliances />} />
+        <Route path="/accessories" element={<Accessories />} />
+  
       </Routes>
     </Router>
     </div>
