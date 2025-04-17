@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
+import Navbar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import Card from '../Components/Card'
 
@@ -7,7 +7,7 @@ const Accessories = () => {
   return (
     <div>
        <div className="bg-gray-100">
-      <NavBar />
+      <Navbar />
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}

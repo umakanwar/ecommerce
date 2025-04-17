@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../Components/Footer";
-import NavBar from "../Components/NavBar";
+import Navbar from "../Components/NavBar";
 import Card from "../Components/Card";
 
 const MobilesPage = () => {
   return (
     <div className="bg-gray-100">
-      <NavBar />
+      <Navbar />
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}

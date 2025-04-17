@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/NavBar";
 import HeroSection from "../Components/HeroSection";
 import IconCaeds from "../Components/IconCaeds";
 import Card from "../Components/Card";

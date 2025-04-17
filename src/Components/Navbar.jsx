@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { CiHeart } from "react-icons/ci";
+import { FaHeart } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -24,7 +26,7 @@ const Navbar = () => {
          
           </a>
 
-          <Link to="/wishlist">
+          <Link to="/cart">
           <a href="#" className="text-gray-700 hover:text-indigo-600 relative">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
               <path d="M3 3h2l.4 2M7 13h10l4-8H5.4" />
@@ -32,6 +34,10 @@ const Navbar = () => {
               <circle cx={20} cy={21} r={1} />
             </svg>
           </a>
+          </Link>
+
+          <Link to="/wishlist">
+          <FaHeart className=' hover:text-xl hover:text-red-500'/>
           </Link>
         </div>
       </div>

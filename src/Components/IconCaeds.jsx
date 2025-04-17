@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconCaeds = () => {
   return (
-<div>
+<div className='p-6'>
   <div className="flex flex-wrap gap-4 justify-center">
     {/* Card 1 */}
     <div className="flex flex-col items-center bg-white rounded-xl shadow hover:shadow-md transition p-4 w-28">
