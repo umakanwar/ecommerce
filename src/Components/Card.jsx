@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Card = () => {
   return (
     <div className="max-w-xs bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <Link to="/product/:id" className="text-sm font-medium text-gray-800 block hover:text-blue-600">
       <div className="relative">
         <img
           className="w-full h-48 object-cover "
@@ -15,9 +16,9 @@ const Card = () => {
       </div>
 
       <div className="p-4 space-y-2">
-        <Link to="/product/:id" className="text-sm font-medium text-gray-800 block hover:text-blue-600">
+        
           Nothing Watch Pro 2 Smartwatch
-        </Link>
+        
 
         <p className="text-xs text-gray-500">
           Bluetooth Calling, 33.52mm AMOLED Display, IP68 Water Resistant, 
@@ -28,12 +29,14 @@ const Card = () => {
           <span className="text-sm line-through text-gray-500">₹5,999</span>
         </div>
 
+        
         <button className="w-full bg-indigo-600 text-white text-sm font-medium py-2 rounded-lg hover:bg-indigo-700 transition">
         <Link to="/cart" className="block text-center">
           Add to Cart
           </Link>
         </button>
       </div>
+      </Link>
     </div>
   );
 };

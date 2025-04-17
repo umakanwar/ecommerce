@@ -9,7 +9,9 @@ const Navbar = () => {
       <div className="flex justify-between h-16 items-center">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <a href="#" className="text-2xl font-bold text-indigo-600">CromaX</a>
+          <a href="#" className="text-2xl font-bold text-indigo-600">
+          <Link to="/">CromaX</Link>
+          </a>
         </div>
         {/* Search Bar */}
         <div className="w-full max-w-md mx-6 hidden md:block">
@@ -21,6 +23,8 @@ const Navbar = () => {
           <Link to="/login">Login</Link>
          
           </a>
+
+          <Link to="/wishlist">
           <a href="#" className="text-gray-700 hover:text-indigo-600 relative">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
               <path d="M3 3h2l.4 2M7 13h10l4-8H5.4" />
@@ -28,6 +32,7 @@ const Navbar = () => {
               <circle cx={20} cy={21} r={1} />
             </svg>
           </a>
+          </Link>
         </div>
       </div>
       {/* Bottom Categories */}
