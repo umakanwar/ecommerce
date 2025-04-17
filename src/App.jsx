@@ -12,6 +12,7 @@ import LaptopPage from './Pages/LaptopPage'
 import TVsPage from './Pages/TVsPage'
 import Appliances from './Pages/Appliances';
 import Accessories from './Pages/Accessories';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <div>
       <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/product/:id" element={<ProductDescPage />} />
